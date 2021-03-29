@@ -1,4 +1,4 @@
-# Project 1: The Number Guessing Game
+# Project 3: Phrase Hunters
 
 Objective:
 Guess the letters of a phrase until you win(guess all the letters) or lose(run out of lives)
