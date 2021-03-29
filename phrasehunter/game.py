@@ -63,7 +63,7 @@ class Game:
         """
         print()
         print("-----------------------------------------------")
-        print("Welcome to the wonderful game of Phrase Hunter!", end="\n")
+        print("Welcome to the wonderful game of Phrase Hunters!", end="\n")
         print("-----------------------------------------------")
 
     def get_guess(self):
