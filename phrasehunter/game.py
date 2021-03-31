@@ -13,8 +13,9 @@ class Game:
         guesses: all the guesses by the player 
         """
         self.missed = 0
-        self.pharses = ["Once in a blue moon", "When pigs fly",
-                        "A piece of cake", "Break a leg", "Jupyter notebook"]
+        # Corrected typo, changed the elements to Phrase objects
+        self.phrases = [Phrase("Once in a blue moon"), Phrase("When pigs fly"),
+                        Phrase("A piece of cake"), Phrase("Break a leg"), Phrase("Jupyter notebook")]
         self.active_phrase = None
         self.guesses = []
 
@@ -35,6 +36,7 @@ class Game:
             print()
             if self.missed >= 5:
                 break
+        self.active_phrase.display()
         self.game_over()
         for _ in range(10):
             replay = str(input("Play again? (y/n) "))
@@ -56,7 +58,8 @@ class Game:
     def get_random_phrase(self):
         """Pulls a random phrase from phrases
         """
-        self.active_phrase = Phrase(random.choice(self.pharses))
+        # Corrected typo
+        self.active_phrase = random.choice(self.phrases)
 
     def welcome(self):
         """A warm welcoming message at the beginning of the game.
@@ -81,7 +84,8 @@ class Game:
             bool: False if it isn't anything other than what is allowed. True if a player tries to guess a letter
             multiple times.
         """
-        if user_input not in string.ascii_lowercase or len(user_input) > 1:
+        # Changed ascii_lowercase to letters
+        if user_input not in string.ascii_letters or len(user_input) > 1:
             print("Please enter one letter from a to z.")
             return False
         elif len(self.guesses) >= 2 and self.guesses.count(user_input) > 1:

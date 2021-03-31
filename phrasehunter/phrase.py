@@ -4,17 +4,20 @@ class Phrase:
 
     def __init__(self, phrase):
         """
-            phrase (str): phrase itself.
+            phrase (str) : phrase itself
+            phrase (str): lowercase phrase.
             correct_letters (list): correct player guesses are appended to keep track
         """
+        # To display phrases with capitalization added phrase_origin
+        self.phrase_origin = phrase
         self.phrase = phrase.lower()
         self.correct_letters = []
 
     def display(self):
         """Displays each letter of the phrase as _ with white spaces in between.
         """
-        for letter in self.phrase:
-            if letter in self.correct_letters:
+        for letter in self.phrase_origin:
+            if letter.lower() in self.correct_letters:
                 print(letter, end=" ")
             else:
                 if letter == " ":
@@ -33,23 +36,14 @@ class Phrase:
         Returns:
             bool: only returns True, if it is a correct guess.
         """
+        # guess_letter.lower() to accepts upper and lowercase input
         for letter in self.phrase.replace(" ", ""):
-            if letter == guess_letter:
-                self.correct_letters.append(guess_letter)
+            if letter == guess_letter.lower():
+                self.correct_letters.append(guess_letter.lower())
                 print("'{}' was found!".format(guess_letter))
                 return True
         else:
             print("'{}' was not found.".format(guess_letter))
-
-    #
-    # def check_letter_message(self, guess_letter):
-    #     """Shows the result of check_letter().
-    #
-    #     Args:
-    #         guess_letter (str): A player inputted guess
-    #     """
-    #     if self.check_letter(guess_letter):
-    #     else:
 
     def check_complete(self):
         """Checks if all of the letters are guessed right.

@@ -4,6 +4,7 @@
     <list default="true" id="017008f2-15b5-4ef0-ab39-97878a5fbb60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phrasehunter/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/phrasehunter/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phrasehunter/phrase.py" beforeDir="false" afterPath="$PROJECT_DIR$/phrasehunter/phrase.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,57 +95,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>29</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>85</line>
+          <line>89</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>84</line>
+          <line>88</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>86</line>
+          <line>90</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>87</line>
+          <line>91</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/phrasehunter/game.py</url>
-          <line>88</line>
+          <line>92</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
