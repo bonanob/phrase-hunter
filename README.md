@@ -23,4 +23,4 @@ Flow of the game:
 
 Notes:
 
-- Guesses are validated(only alphabet a-z is allowed)
+- Guesses are validated(only alphabet a-z and A-Z are allowed)
